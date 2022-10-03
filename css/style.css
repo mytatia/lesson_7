@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"),
+    url("../fonts/Lato-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #1e212c;
+  font-size: 46px;
+  line-height: 59.8px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 60px;
+}
+.section__one {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.section__two {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 25.6px;
+  margin-bottom: 48px;
+}
+.section__two,
+.section__four,
+.section__five,
+.section__six {
+  color: #424551;
+  line-height: 25.6px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.section_one,
+.section__three {
+  color: #1e212c;
+}
+.first__p {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.section__three {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 48px;
+  padding-left: 58px;
+}
+.section__four {
+  margin-bottom: 24px;
+}
+
+.section__five {
+  margin-bottom: 24px;
+  padding-left: 58px;
+}
+.list {
+  list-style-type: none;
+}
+.section__six {
+  margin-bottom: 92px;
+}
+
+/* Lesson 7 - Part 2 */
+.title {
+  text-align: center;
+  color: rgb(31, 50, 31);
+}
+.background_container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+[class*="__container"] {
+  margin-bottom: 50px;
+}
+.multi__container {
+  height: 500px;
+  background: url("../img/totoro_tree.jpg") no-repeat top left/ 33%,
+    url("../img/My_Neighbor_Totoro_-_Tonari_no_Totoro_\(Movie_Poster\).jpg")
+      no-repeat center bottom / 30%,
+    url("../img/my-neighbor-totoro-1134275.jpg") no-repeat bottom right / 350px,
+    yellow
+      linear-gradient(
+        90deg,
+        rgba(0, 36, 36, 0.006337569207370497) 11%,
+        rgba(9, 121, 106, 1) 42%,
+        rgba(0, 212, 255, 1) 100%
+      );
+  border-radius: 10px 10px;
+}
+.repeat__container {
+  height: 500px;
+  background-repeat: repeat-y;
+  background-image: url("../img/soot_gremlin.PNG");
+  background-color: rgb(19, 22, 19);
+}
+.attachment__container {
+  height: 500px;
+  background-image: url("../img/cat_bus.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
